@@ -19,6 +19,10 @@ const Home = ( {model} ) => {
                         <li><NavLink to={"/popular"}>Popular</NavLink></li>       
                     </ul>
                 </header>
+                <h1> Github Battle: Battle your friends... and stuff.</h1>
+                <div className="col-md-6 col-sm-6 col-xs-6">
+                    <NavLink className="btn btn-default btn-lg active init" to="/battle">Battle</NavLink >
+                </div>
             </div>
  </div>);
 }
